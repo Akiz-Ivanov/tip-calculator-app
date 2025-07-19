@@ -3,8 +3,8 @@
 @font-face {
   font-family: 'Space Mono';
   src: local('Space Mono Bold'), local('SpaceMono-Bold'),
-    url('fonts/hinted-subset-SpaceMono-Bold.woff2') format('woff2'),
-    url('fonts/hinted-subset-SpaceMono-Bold.woff') format('woff');
+    url('/fonts/hinted-subset-SpaceMono-Bold.woff2') format('woff2'),
+    url('/fonts/hinted-subset-SpaceMono-Bold.woff') format('woff');
   font-weight: bold;
   font-style: normal;
   font-display: swap;

@@ -9,7 +9,7 @@ function App() {
           SPLI <br />TTER
         </h1>
         <div
-          className="bg-white rounded-tr-3xl rounded-tl-3xl md:rounded-3xl w-full p-7 flex-1 md:flex-0 "
+          className="bg-white rounded-tr-3xl rounded-tl-3xl md:rounded-3xl w-full p-7 flex-1 md:flex-0 shadow-2xl"
         >
           <TipCalcForm />
         </div>
