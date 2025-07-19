@@ -48,7 +48,7 @@ const TipSelector = ({
         {tipPercentages.map((percentage) => (
           <RegularButton
             key={percentage}
-            aria-checked={value === percentage}
+            aria-pressed={value === percentage}
             onClick={() => handleTipButtonClick(percentage)}
             className={cn(
               value === percentage && "bg-primary text-green-900"
