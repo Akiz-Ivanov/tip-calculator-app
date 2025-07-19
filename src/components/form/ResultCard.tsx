@@ -21,9 +21,9 @@ const ResultCard = ({ tipAmount, total, handleReset, isResetEnabled }: ResultCar
 
         <div className="w-full flex justify-between items-center">
           <label htmlFor="tipAmount" className="flex flex-col text-14-16">
-            <p>
+            <span>
               Tip Amount
-            </p>
+            </span>
             <span className="text-grey-400">
               / person
             </span>
@@ -34,9 +34,9 @@ const ResultCard = ({ tipAmount, total, handleReset, isResetEnabled }: ResultCar
         </div>
         <div className="w-full flex justify-between items-center">
           <label htmlFor="total" className="flex flex-col text-14-16">
-            <p>
+            <span>
               Total
-            </p>
+            </span>
             <span className="text-grey-400">
               / person
             </span>
